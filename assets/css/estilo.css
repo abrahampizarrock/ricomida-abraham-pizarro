@@ -1,0 +1,129 @@
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+}
+
+
+.navbar-toggler{
+    color: #fff !important;
+    background-color: #fff !important;
+}
+  
+.navbar-toggler span{
+    color: #fff !important;
+}
+
+.card-body{
+    font-family: 'Cabin', sans-serif;
+    opacity: 100%;
+}
+
+.card-title{
+    width: 300px;
+    height: 80px;
+}
+.img-margin {
+    margin: 10px;
+}
+
+.espacio-tarjetas h5{
+    width: 100%;
+    height: 60px;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
+.espacio-tarjetas > .col-md-4{
+    margin-bottom: 10px;
+}
+
+.btn-tooltip {
+    position: relative;
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    color: black;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-tooltip:before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+  }
+  
+  .btn-tooltip:hover:before {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+#send-email-button {
+    background-color: #579f65;
+    border: none;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ 
+ /* Estilos para el tooltip */
+ .tooltip {
+    position: relative;
+    display: inline-block;
+ }
+ 
+ .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+    visibility: visible;
+ }
+
+
+
+ .medio-bajo{
+    padding-top: 40px;
+    background-color: red;
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+ }
+ 
+
+footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #373a3c;
+    color: black;
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+}
